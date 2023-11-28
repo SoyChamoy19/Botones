@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+}
+#logo img {
+    width: 210px; /* Cambia el valor a tu tamaño deseado */
+    height: auto; /* Mantiene la relación de aspecto original */
+}
+.boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.boton img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+.boton span {
+    font-size: 18px;
+    font-weight: bold;
+}
